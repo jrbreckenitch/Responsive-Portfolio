@@ -305,6 +305,10 @@ footer {
         text-align: center
     }
 
+    .container {
+        height: 1625px; 
+    }
+
     header {
         position: static;
     }
@@ -325,25 +329,70 @@ footer {
     }
 
     .loremText {
-        width: 90%;
+        width: 50%;
         margin-right: auto;
         margin-left: auto;
     }
 
-    #imageContainer {
+    /* #imageContainer {
         width: 90%;
         margin-right: auto;
         margin-left: auto;
-    }
+    } */
 
     .contentWrapper {
-        width: 50%;
+        width: 100%;
         /* align-content: center; */
         float: none;
         /* text-align: center; */
         margin-left: auto;
         margin-right: auto;
         /* position: relative; */
+        display: block;
+    }
+
+    #board {
+        float: none;
+        width: 50%;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 85px;
+        display: block;
+    }
+
+    #copper {
+        float: none;
+        width: 50%;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 85px;
+        display: block;
+    }
+
+    #headphones {
+        float: none;
+        width: 50%;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 85px;
+        display: block;
+    }
+
+    #ledtv {
+        float: none;
+        width: 50%;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 85px;
+        display: block;
+    }
+
+    #techBoard {
+        float: none;
+        width: 50%;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 85px;
         display: block;
     }
 }
